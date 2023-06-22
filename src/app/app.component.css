@@ -1,0 +1,31 @@
+.container {
+  margin: 0 auto;
+  width: 70%;
+  height: 97%;
+  display: flex;
+  align-items: center;
+}
+
+.slide {
+  width: 50px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  overflow: hidden;
+  height: inherit;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin: 5px;
+  cursor: pointer;
+  position: relative;
+  transition: flex 800ms ease-in-out;
+}
+
+.active {
+  width: auto;
+  flex: 10;
+}
+
+.active img {
+  width: 100%;
+}
